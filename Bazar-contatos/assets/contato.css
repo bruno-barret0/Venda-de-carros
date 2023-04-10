@@ -99,7 +99,7 @@ img {
   color: var(--color-white);
 }
 
-/* NavBar */
+/* Navbar */
 
 .menu i {
   display: none;
@@ -167,108 +167,120 @@ img {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.phone-list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
+/* Atendimento */
+
+.teiner {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: none;
+  width: 1200px;
+  height: 200px;
+  margin-left: 380px;
+  margin-top: 80px;
 }
 
-.phone-item {
+.box {
+  flex: 1;
+  border: 2px solid black;
+  padding: 10px;
+  margin-right: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.box:last-child {
+  margin-right: 0;
+}
+
+h2 {
+  margin-top: 0;
   display: flex;
   align-items: center;
-  padding: 10px;
-  border-radius: 5px;
-  background-color: #ffffff;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  margin-bottom: 10px;
 }
 
-.phone-item img {
-  width: 70px;
-  height: 70px;
-  margin-right: 20px;
-  border-radius: 50%;
-  border: 2px solid var(--color-light);
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+h2 i {
+  margin-right: 10px;
 }
 
-.phone-info {
-  flex: 1;
-}
-
-.phone-info h3 {
-  margin: 0 0 5px;
+i.fas {
   font-size: 24px;
-  font-weight: 600;
-  color: #333;
 }
 
-.phone-info p {
-  margin: 0;
-  font-size: 18px;
-  color: #666;
+main img{
+  height: 20px;
+  width: 20px;
+
 }
 
-.phone-info p:before {
-  content: "\260E";
-  display: inline-block;
-  margin-right: 5px;
-  font-size: 20px;
-  vertical-align: middle;
-  color: #ccc;
+main h2{
+  font-size: 30px;
+
 }
 
-
-#email-form h2{
-  color: #000;
-  color: var(--color-white);
+main p{
+  font-size: 15px;
 }
 
-#email-form {
-  width: 500px;
-  margin: 0 auto;
-  background-color: var(--color-bg2);
-  border-radius: 5px;
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+main{
+  background-color: none;
+}
+
+.title{
+  background: var(--color-bg2);
+  height: 150px;
+  text-align: center;
+  margin-top: 100px;
+
+}
+
+.hr1{
+  height: 2px;
+  width: 1300px;
+  background-color: #000;
+  margin-left: 325px;
+  margin-top: 30px;
+}
+
+.conosco {
+  display: flex;
+  width: 1200px;
+  margin-left: 380px;
+  margin-top: 15px;
+}
+
+.boxx {
+  flex: 1;
   padding: 20px;
 }
 
-label {
-  display: block;
-  margin-bottom: 10px;
-  font-size: 16px;
-  font-weight: bold;
-  color: var(--color-white);
+.conosco1{
+  margin-left: 380px;
+  margin-top: 25px;
+  
 }
 
-input[type="text"],
-input[type="email"],
-textarea {
-  display: block;
+.hr2{
+  height: 2px;
+  width: 1300px;
+  background-color: #000;
+  margin-left: 325px;
+  margin-top: 300pxpx;
+}
+
+.conosco1{
+  margin-left: 380px;
+  margin-top: 25px;
+  
+}
+
+footer{
+  height: 100px;
   width: 100%;
-  padding: 10px;
-  margin-bottom: 20px;
-  border-radius: 3px;
-  border: none;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
-  font-size: 16px;
-  font-family: Arial, sans-serif;
+  background-color: #424890;
+  color: white;
+  font-size: 30PX;
 }
 
-input[type="submit"] {
-  background-color: #3498db;
-  color: #fff;
-  border: none;
-  border-radius: 3px;
-  padding: 10px 20px;
-  font-size: 16px;
-  font-weight: bold;
-  cursor: pointer;
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
-}
-
-input[type="submit"]:hover {
-  background-color: #2980b9;
-}
 
 
