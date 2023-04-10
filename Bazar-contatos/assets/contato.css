@@ -17,7 +17,7 @@ font-family: 'Shadows Into Light', cursive;
   box-sizing: border-box;
 }
 :root {
-  --color-primary: #6c63ff;
+  --color-primary: #FFFFCC;
   --color-sucess: #00bf8e;
   --color-warning: #f7c94b;
   --color-danger: #f75842;
@@ -25,9 +25,9 @@ font-family: 'Shadows Into Light', cursive;
   --color-white: #fff;
   --color-light: rgba(255, 255, 255, 0.7);
   --color-black: #000;
-  --color-bg: #1f2641;
-  --color-bg1: #2e3267;
-  --color-bg2: #424890;
+  --color-bg: #FFFFCC;
+  --color-bg1: #EA4C89;
+  --color-bg2: #643733;
 
   --container-width-lg: 80%;
   --container-width-md: 90%;
@@ -224,6 +224,7 @@ main p{
 
 main{
   background-color: none;
+  color: var(--color-bg1);
 }
 
 .title{
@@ -231,6 +232,7 @@ main{
   height: 150px;
   text-align: center;
   margin-top: 100px;
+  color: var(--color-bg1);
 
 }
 
@@ -247,16 +249,19 @@ main{
   width: 1200px;
   margin-left: 380px;
   margin-top: 15px;
+  color: var(--color-bg1);
 }
 
 .boxx {
   flex: 1;
   padding: 20px;
+  color: var(--color-bg1);
 }
 
 .conosco1{
   margin-left: 380px;
   margin-top: 25px;
+  color: var(--color-bg1);
   
 }
 
@@ -266,6 +271,7 @@ main{
   background-color: #000;
   margin-left: 325px;
   margin-top: 300pxpx;
+  color: var(--color-bg1);
 }
 
 .conosco1{
@@ -277,8 +283,8 @@ main{
 footer{
   height: 100px;
   width: 100%;
-  background-color: #424890;
-  color: white;
+  background-color: var(--color-white);
+  color: var(--color-bg1);
   font-size: 30PX;
 }
 
