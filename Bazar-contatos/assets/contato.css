@@ -286,7 +286,22 @@ footer{
   background-color: var(--color-white);
   color: var(--color-bg1);
   font-size: 30PX;
+  padding-bottom: 20px;
 }
 
+footer img{
+  height: 80px;
+  width: 180px;
+  margin-left: 800px;
 
+  padding-top: 20px;
+  float: left;
+}
+footer p{
+  font-size: 10px;
+  margin-top: 63px;
+  color: var(--color-black);
+  display: inline-block;
+  text-align: center;
+}
 
