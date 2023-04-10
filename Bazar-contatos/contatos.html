@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Loja de roupas</title>
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+  <link rel="stylesheet" href="assets/contato.css">
+</head>
+<body>
+  <header>
+    <header>
+      <nav class="navbar">
+          <a href="#" class="logo">Minha Loja</a>
+          <ul class="nav-links">
+              <li><a href="#">Início</a></li>
+              <li><a href="#">Roupas</a></li>
+              <li><a href="#">Acessórios</a></li>
+              <li><a href="#">Sapatos</a></li>
+              <li><a href="#">Contato</a></li>
+          </ul>
+          <div class="cart">
+              <a href="#"><img src="cart-icon.png" alt="Carrinho de Compras"></a>
+              <span class="cart-count">0</span>
+          </div>
+      </nav>
+  </header>
+
+
+
+<main>
+  <div class="container">
+    <h1>Lista de Telefones</h1>
+    <ul class="phone-list">
+      </li>
+      <li class="phone-item">
+        <img src="./img/fac.png" alt="Atendimento ao cliente">
+        <div class="phone-info">
+          <h3>Fac</h3>
+          <p>(00) 000000000</p>
+        </div>
+      </li>
+      <li class="phone-item">
+        <img src="./img/whatsapp.png" alt="Whatsapp">
+        <div class="phone-info">
+          <h3>Whatsapp</h3>
+          <p>(00) 000000000</p>
+        </div>
+      </li>
+    </ul>
+  </div> 
+  
+  <div id="email-form">
+    <h2>Entre em contato</h2>
+    <form>
+      <label for="name">Nome</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="numero">Numero</label>
+      <input type="text" id="numero" name="numero" required>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Mensagem</label>
+      <textarea id="message" name="message" required></textarea>
+
+      <input type="submit" value="Enviar">
+    </form>
+  </div>
+
+  <h1>Minha API do Google Maps</h1>
+    <div id="map"></div>
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY"></script>
+    <script src="./assets/contato.js"></script>
+
+</main>
+
+
+
+<aside>
+
+</aside>
+
+
+<footer>
+
+</footer>
+</body>
+<script src="assets/javascript/index.js"></script>
+</html>
