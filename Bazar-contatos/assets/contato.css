@@ -164,10 +164,10 @@ img {
   margin: 400px 800px 0 100px;
   padding: 20px;
   background-color: var(--color-bg2);
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 4px var(--color-black);
 }
 
-/* Atendimento */
+/* Atendimento-inicio */
 
 .teiner {
   display: flex;
@@ -181,7 +181,7 @@ img {
 
 .box {
   flex: 1;
-  border: 2px solid black;
+  border: 2px solid var(--color-black);
   padding: 10px;
   margin-right: 10px;
   display: flex;
@@ -207,39 +207,36 @@ i.fas {
   font-size: 24px;
 }
 
-main img{
+main img {
   height: 20px;
   width: 20px;
-
 }
 
-main h2{
+main h2 {
   font-size: 30px;
-
 }
 
-main p{
+main p {
   font-size: 15px;
 }
 
-main{
+main {
   background-color: none;
   color: var(--color-bg1);
 }
 
-.title{
+.title {
   background: var(--color-bg2);
   height: 150px;
   text-align: center;
   margin-top: 100px;
   color: var(--color-bg1);
-
 }
 
-.hr1{
+.hr1 {
   height: 2px;
   width: 1300px;
-  background-color: #000;
+  background-color: var(--color-black);
   margin-left: 325px;
   margin-top: 30px;
 }
@@ -258,29 +255,31 @@ main{
   color: var(--color-bg1);
 }
 
-.conosco1{
+.conosco1 {
   margin-left: 380px;
   margin-top: 25px;
-  color: var(--color-bg1);
-  
+  color: var(--color-bg1); 
 }
 
-.hr2{
+.hr2 {
   height: 2px;
   width: 1300px;
-  background-color: #000;
+  background-color: var(--color-black);
   margin-left: 325px;
   margin-top: 300pxpx;
   color: var(--color-bg1);
 }
 
-.conosco1{
+.conosco1 {
   margin-left: 380px;
-  margin-top: 25px;
-  
+  margin-top: 25px
 }
 
-footer{
+/* Atendimeto-final */
+
+/* Footer-inicio */
+
+footer {
   height: 100px;
   width: 100%;
   background-color: var(--color-white);
@@ -289,19 +288,21 @@ footer{
   padding-bottom: 20px;
 }
 
-footer img{
+footer img {
   height: 80px;
   width: 180px;
   margin-left: 800px;
-
   padding-top: 20px;
   float: left;
 }
-footer p{
+
+footer p {
   font-size: 10px;
   margin-top: 63px;
   color: var(--color-black);
   display: inline-block;
   text-align: center;
 }
+
+/* Footer-final */
 
